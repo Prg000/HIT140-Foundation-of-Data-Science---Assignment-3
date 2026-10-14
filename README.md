@@ -1,3 +1,13 @@
+Regression 2.1: Predicting the goal difference of a match
+This notebook constructs a linear regression model to predict the goal difference in a FIFA World Cup 2026 match.
+Predictors and data set
+The study is based on 104 match records. The result is goal_difference. It employs eight pre-match predictors: home and away FIFA ranks; home prior matches; home and away prior goals-for averages; home and away prior goals-against averages; and host advantage.
+
+Run:
+1. Place the notebook and the source data file(s) that you need into your project folder.
+2. In the data-loading field of the notebook, change file_path to wherever you have the FBref file on your computer.
+3. Run the notepad cells from the top to the bottom. It loads and stores regression_2_1_dataset.csv, trains the model, then tests the model with a date based train/test split keeping matches on each date together.
+The notebook is written in Python with pandas, NumPy, scikit-learn, and matplotlib.
 Regression 2.2: Team Goals Number Prediction
 
 The research uses a linear regression model to estimate the number of goals scored by a team in one match in the FIFA World Cup 2026.
